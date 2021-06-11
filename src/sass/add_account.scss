@@ -1,0 +1,48 @@
+/*!
+ * Copyright (c) 15/05/2021 19:13
+ * @author Ronald Tchuekou
+ * @email  ronaldtchuekou@gmail.com
+ */
+
+.app__form{
+    padding: 0 4px;
+    font-size: 1.3rem;
+    font-weight: 350;
+    color: $primary;
+    .app__form-description{
+        font-size: 18px;
+    }
+    .app__form-group{
+        width: 100%;
+        &.radio_b{
+            display: flex;
+            flex-flow: nowrap;
+        }
+        label{
+            display: block;
+            margin-bottom: 5px;
+            font-size: 17px;
+        }
+        .form-input{
+            display: block;
+            width: 100%;
+            padding: 5px 10px;
+            border: none;
+            outline: 1px solid $border-edit;
+            font: inherit;
+            font-size: 19px;
+            font-weight: 400;
+            background-color: $bg-text-edit;
+            transition: .3s;
+            color: $dark;
+            &:hover{
+                outline-color: $border-hover;
+                background-color: $bg-text-hover;
+            }
+            &.error{
+                background-color: $bg-text-error;
+                outline-color: $border-error;
+            }
+        }
+    }
+}
