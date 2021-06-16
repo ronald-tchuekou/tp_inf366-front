@@ -3,7 +3,7 @@
  * @author Ronald Tchuekou
  * @email  ronaldtchuekou@gmail.com
  */
-const BACKEND = 'http://localhost:8000/api/';
+const BACKEND = 'https://tpinf366-back.herokuapp.com/api/';
 
 const Constants = {
     APP_NAME: 'Request Manager',
